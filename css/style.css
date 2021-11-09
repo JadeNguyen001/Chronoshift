@@ -1,0 +1,438 @@
+body {
+    background-color: #4F713C;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Header Start*/
+.topnav {
+    overflow: hidden;
+    background-color: #2E4223;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 150%;
+    border-color: #D1D9CD;
+    background-color: #D1D9CD;
+    justify-content: center;
+}
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+.topnav a.active {
+    background-color: #192413;
+    color: white;
+}
+.butt {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.logo {
+    float: left;
+    padding: 15px;
+}
+/*Header End*/
+
+/*Home Page Start*/
+.sidepanel, .sidepanel2 {
+    flex-basis: 25%;
+}
+.hi {
+    flex-basis: 33%;
+    align-content: space-around;
+}
+.intro {
+    background-color: #2E4223;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    display: flex;
+}
+.wel {
+    width: 40%;
+    text-align: center;
+}
+.wel2 {
+    background-color: white;
+    padding-right: 31px;
+    padding-left: 31px;
+    padding-top: 31px;
+    padding-bottom: 20px;
+    font-size: 250%;
+    margin-bottom: 0px;
+}
+.intro2 {
+    background-color: white;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    font-size: 200%;
+    margin-top: 0px;
+}
+.wp {
+    background-color: #2E4223;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.au {
+    flex-basis: 47%;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.rbn {
+    flex-basis: 47%;
+    margin-right: 40px;
+}
+.au a:hover {
+    opacity: 75%;
+}
+.rbn a:hover {
+    opacity: 75%;
+}
+/*Home Page End*/
+
+/*Footer Start*/
+footer {
+    display: flex;
+    background-color: #2E4223;
+    color: black;
+    margin-top: 40px;
+    padding-top: 40px;
+    font-size: 35px;
+}
+.toes {
+    display: flex;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+    flex-basis: 100%;
+    padding-bottom: 20px;
+}
+.com, .con, .so {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-basis: 30%;
+}
+.icon {
+    width: 50%;
+}
+.com2, .con2, .so2 {
+    margin-bottom: 10px;
+    font-size: 150%;
+}
+/*Footer End*/
+
+/*About Us Page Start*/
+.heroau {
+    padding: 40px;
+}
+.sec {
+    display: flex;
+    background-color: #2E4223;
+    padding: 40px;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 40px;
+}
+.pic {
+    flex-basis: 50%;
+    align-items: center;
+    margin-right: 20px;
+}
+.pic2 {
+    flex-basis: 50%;
+    align-items: center;
+    margin-left: 20px;
+}
+.lay {
+    flex-basis: 50%;
+    background-color: white;
+    margin-left: 20px;
+    text-align: center;
+}
+.hto {
+    font-size: 475%;
+    margin: 0px;
+    padding: 40px; 
+    align-items: center;
+}
+.hto2 {
+    font-size: 350%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    padding: 40px; 
+}
+.lay2 {
+    flex-basis: 50%;
+    background-color: white;
+    margin-right: 20px;
+    text-align: center;
+}
+.comp {
+    font-size: 475%;
+    margin: 0px;
+    padding: 40px;
+    padding-top: 80px; 
+    align-items: center;
+}
+.comp2 {
+    font-size: 350%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    padding: 40px;
+}
+.conin {
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-basis: 100%;
+}
+.conin2 {
+    font-size: 425%;
+}
+.phoe {
+    font-size: 275%;
+}
+.sec2 {
+    display: flex;
+    background-color: #2E4223;
+    padding: 40px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.tour {
+    background-color: #2E4223;
+    padding: 40px;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.tour2 {
+    background-color: #2E4223;
+    padding: 40px;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.gui {
+    display: flex;
+    padding: 40px;
+    background-color: #2E4223;
+    margin-bottom: 40px;
+}
+.gui2 {
+    display: flex;
+    padding: 40px;
+    background-color: #2E4223;
+}
+.ai, .ei, .mi, .ji {
+    flex-basis: 50%;
+}
+.abby, .mich {
+    background-color: white;
+    margin-right: 40px;
+    padding: 20px;
+    flex-basis: 50%;
+    text-align: center;
+    font-size: 225%;
+    border-right-width: 40px;
+}
+.eren, .jor {
+    background-color: white;
+    margin-right: 40px;
+    padding: 20px;
+    flex-basis: 50%;
+    text-align: center;
+    font-size: 225%;
+}
+/*About Us Page End*/
+
+/*Expedition Page Start*/
+.trips {
+    background-color: #2E4223;
+    padding: 40px 40px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.trips2 {
+    background-color: #2E4223;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.title {
+    background-color: white;
+    padding: 20px;
+    opacity: 65%;
+    flex-basis: 10%;
+    text-align: center;
+
+}
+.des {
+    background-color: white;
+    padding: 20px;
+    opacity: 65%;
+    text-align: center;
+}
+.title2 {
+    margin: 0%;
+    font-size: 275%;
+    flex-basis: 10%;
+    background-color: white;
+    padding: 10px;
+    opacity: 65%;
+    margin-bottom: 65%;
+}
+.des2 {
+    margin: 0%;
+    font-size: 175%;
+    background-color: white;
+    padding: 10px;
+    opacity: 65%;
+    margin-bottom: 10%;
+}
+.beach {
+    background-image: url(/img/Beach1.jpg);
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 10px;
+    background-size: 100%;
+}
+.mount {
+    background-image: url(/img/Mountain.jpg);
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 10px;
+    background-size: 100%;
+}
+.safari1 {
+    background-image: url(/img/Safari1.jpg);
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 10px;
+    background-size: 100%;
+}
+.beach2 {
+    background-image: url(/img/Beach2.jpg);
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 10px;
+    background-size: 100%;
+}
+.mount2 {
+    background-image: url(/img/Mountain\ Valley.jpg);
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 10px;
+    background-size: 100%;
+}
+.safari2 {
+    background-image: url(/img/Safari2.jpg);
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 10px;
+    background-size: 100%;
+}
+.deep {
+    background-image: url(/img/Deep\ Sea\ Diving\ Exp.jpg.crdownload);
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 10px;
+    background-size: 100%;
+}
+.lake {
+    background-image: url(/img/Lake.jpg);
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 10px;
+    background-size: 100%;
+}
+.whale {
+    background-image: url(/img/Whale\ Hunting\ Exp.jpg);
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 10px;
+    background-size: 100%;
+}
+/*Expedition Page End*/
+
+/*Rules Page Start*/
+.rul {
+    display: flex;
+    padding: 40px;
+    background-color: #2E4223;
+
+    align-content: space-between;
+    margin-bottom: 10px;
+
+}
+.rul2 {
+    flex-basis: 50%;
+    padding-right: 20px;
+}
+.ris {
+    margin-bottom: 40px;
+}
+.poli {
+    background-color: white;
+    flex-basis: 50%;
+    text-align: center;
+    font-size: 350%;
+    padding-left: 20px;
+    margin-left: 20px;
+    padding: 80px;
+}
+.topi1 {
+    margin-bottom: 10px;
+    font-size: 350%;
+    margin-top: 50px;
+}
+.topi {
+    margin-bottom: 10px;
+    font-size: 350%;
+    margin-top: 100px;
+}
+ul {
+    text-align: center;
+    margin-top: 10px;
+}
+/*Rules Page End*/
+
+/*Book Now Page Start*/
+.ti {
+    background-color: #2E4223;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.titl {
+    color: white;
+    padding-left: 20px;
+}
+.heade {
+    background-color: #192413;
+}
